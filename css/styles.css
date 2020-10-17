@@ -1,0 +1,41 @@
+*{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+h1{
+    font-style: 3.2rem;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template:  120px 200px/1fr 1fr 1fr;
+    gap: 10px; /* grid-gap */
+}
+
+.item{
+    object-fit: contain;
+    border: solid 1px red;
+}
+
+.item.logo {
+    object-fit: contain;
+    align-items: center ;
+}
+
+.item.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+.item.imagen img {
+    width: auto;
+    height: 400px;
+}
